@@ -34,8 +34,6 @@ class ParserService {
                 }
                 
                 this.saverService.save(data);
-
-                console.log(ms)
             }
 
             console.log(`Parsed chunk with last message id: ${messages[messages.length - 1].id}`);
